@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/wd", "dest": "/wd.js" },
+    { "src": "/approve", "dest": "/approve.js" },
+    { "src": "/reject", "dest": "/reject.js" }
+  ]
+}
